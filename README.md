@@ -62,7 +62,7 @@ pip install tensorflow torch scikit-learn pandas numpy matplotlib jupyter
 
 ## 🙏 Acknowledgments
 
-This research project was conducted under the supervision of:
+This research intern was conducted under the supervision of:
 
 - **Dr. Hari K. Chaudhary**
   - Department of Humanities and Social Sciences
