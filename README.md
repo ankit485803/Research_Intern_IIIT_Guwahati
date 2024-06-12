@@ -77,3 +77,19 @@ Guided by:
   - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India
   - Email: [sanjib.singha@iiitg.ac.in](mailto:sanjib.singha@iiitg.ac.in)
 
+<!--  USEAGE -->
+## 🚀 Usage
+1. Clone this repository:  ``` git clone https://github.com/ankit485803/Research_Intern_IIIT_Guwahati.git ```
+2. Navigate to the repository directory:  ``` cd Research_Intern_IIIT_Guwahati ```
+3. Run the Jupyter notebooks in the `notebooks/ ` directory to see the data preprocessing steps, model training, and evaluation processes. ``` jupyter notebook notebooks/ ```
+
+
+
+
+
+
+
+
+
+
+
