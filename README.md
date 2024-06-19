@@ -7,7 +7,9 @@ This repository contains the source code developed during my research internship
 <!-- FIELD OF INTEREST -->
 
 ## ✍️ Research: Field of Interest
-**Neural Network algo ANN, RNN, CNN and LSTM with Trsaformer & KNN**
+**Machine Learning & Neural Networks: ANN, RNN, CNN, LSTM, Transformer & KNN**
+- Expertise:
+  **Artificial Neural Networks: SLP & MLP for Optimal Predictive Model Development**
 
 ## 📌 Project Title
 
@@ -23,6 +25,8 @@ This repository contains the source code developed during my research internship
 
 <!-- THEMES -->
 ## 🔍 Key Themes
+
+This research project demonstrates the potential of neural network-based models to provide accurate and actionable predictions in the fields of finance and healthcare. The comparative study highlights the strengths and limitations of various algorithms, offering insights into their practical applications and paving the way for future research and development.
 
 1. **🤖 Neural Network Applications**: Investigating neural network models, including LSTM, Transformer, CNN, and KNN, for predictive analytics.
 2. **📊 Comparative Analysis**: Evaluating and comparing the performance of different neural network models in stock market and diabetes data analysis.
@@ -65,17 +69,16 @@ pip install tensorflow torch scikit-learn pandas numpy matplotlib jupyter
 This research intern was conducted under the supervision of:
 
 - **Dr. Hari K. Chaudhary**
-  - Department of Humanities and Social Sciences
-  - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India
-  - Email: [hari@iiitg.ac.in](mailto:hari@iiitg.ac.in)
+  - Department of Humanities and Social Sciences (HSS: Economics)
+  - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India - 781015
 
 Guided by:
 
 - **Sanjib Singha**
   - Research Scholar (PhD)
-  - Department of Humanities and Social Sciences
-  - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India
-  - Email: [sanjib.singha@iiitg.ac.in](mailto:sanjib.singha@iiitg.ac.in)
+  - Department of Humanities and Social Sciences (HSS: Economics)
+  - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India - 781015
+  
 
 <!--  USEAGE -->
 ## 🚀 Usage
