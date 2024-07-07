@@ -2,18 +2,18 @@
 
 ## 📝 Overview
 
-This repository contains the source code developed during my research internship at the Indian Institute of Information Technology (IIIT), Guwahati. The focus of the research is on applying neural network-based predictive modeling techniques to real-life big data scenarios, specifically for stock market forecasting and diabetes patient data analysis.
+This repository contains the source code developed during my research internship at the Indian Institute of Information Technology (IIIT), Guwahati. The research focuses on applying neural network-based predictive modeling techniques to real-life big data scenarios, specifically for stock market forecasting and diabetes patient data analysis.
 
 <!-- FIELD OF INTEREST -->
 
 ## ✍️ Research: Field of Interest
-**Machine Learning & Neural Networks: ANN, RNN, CNN, LSTM, Transformer & KNN**
+**Machine Learning & Neural Networks: (ANN, CNN, RNN), LSTM, Transformer and KNN**
 - Expertise:
-  **Artificial Neural Networks: SLP & MLP for Optimal Predictive Model Development**
+  **Artificial Neural Networks based: SLP (Uni-variant) & MLP (Multi-variant) for Optimal Predictive Model Development**
 
 ## 📌 Project Title
 
-**“NEURAL NETWORK – BASED PREDICTIVE MODELLING FOR STOCK MARKET FORCASTING & ANALYSIS: A COMPARATIVE STUDY”**
+**“NEURAL NETWORK – BASED PREDICTIVE MODELLING FOR STOCK MARKET FORECASTING & DIABETES PATIENT ANALYSIS: A COMPARATIVE STUDY”**
 
 **Predictive Analytics and Data Insights: Neural Network Applications for Stock Market Forecasting and Diabetes Data Analysis**
 
@@ -26,7 +26,7 @@ This repository contains the source code developed during my research internship
 <!-- THEMES -->
 ## 🔍 Key Themes
 
-This research project demonstrates the potential of neural network-based models to provide accurate and actionable predictions in the fields of finance and healthcare. The comparative study highlights the strengths and limitations of various algorithms, offering insights into their practical applications and paving the way for future research and development.
+This research project demonstrates the potential of neural network-based models to provide accurate and actionable predictions in Finance Economics and Health Economics. The comparative study highlights the strengths and limitations of various algorithms, offering insights into their practical applications and paving the way for future research and development.
 
 1. **🤖 Neural Network Applications**: Investigating neural network models, including LSTM, Transformer, CNN, and KNN, for predictive analytics.
 2. **📊 Comparative Analysis**: Evaluating and comparing the performance of different neural network models in stock market and diabetes data analysis.
@@ -80,7 +80,7 @@ Guided by:
   - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India - 781015
   
 
-<!--  USEAGE -->
+<!--  USAGE -->
 ## 🚀 Usage
 1. Clone this repository:  ``` git clone https://github.com/ankit485803/Research_Intern_IIIT_Guwahati.git ```
 2. Navigate to the repository directory:  ``` cd Research_Intern_IIIT_Guwahati ```
