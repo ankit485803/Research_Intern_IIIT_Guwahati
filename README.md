@@ -7,7 +7,7 @@ This repository contains the source code developed during my research internship
 <!-- FIELD OF INTEREST -->
 
 ## ✍️ Research: Field of Interest
-**Machine Learning & Neural Networks: (ANN, CNN, RNN), LSTM, Transformer and KNN**
+**Machine Learning & Neural Networks: (ANN, CNN, RNN), LSTM, Bi-Directional & Stacked LSTM, Transformer & Transfer Learning and KNN**
 - Expertise:
   **Artificial Neural Networks based: SLP (Uni-variant) & MLP (Multi-variant) for Optimal Predictive Model Development**
 
@@ -69,16 +69,10 @@ pip install tensorflow torch scikit-learn pandas numpy matplotlib jupyter
 This research intern was conducted under the supervision of:
 
 - **Dr. Hari K. Chaudhary**
+  - Associate Professor
   - Department of Humanities and Social Sciences (HSS: Economics)
   - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India - 781015
 
-Guided by:
-
-- **Sanjib Singha**
-  - Research Scholar (PhD)
-  - Department of Humanities and Social Sciences (HSS: Economics)
-  - Indian Institute of Information Technology, Guwahati (IIITG), Assam, India - 781015
-  
 
 <!--  USAGE -->
 ## 🚀 Usage
