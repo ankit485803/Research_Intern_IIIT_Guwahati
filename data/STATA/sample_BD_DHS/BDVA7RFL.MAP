@@ -1,0 +1,2591 @@
+                                                   BDVA7RFL                                                   
+                                                BDVA7RFL_DICT                                                 
+
+                                        BDVA7RFL.DCF                                                          
+                                    Last Modified:  8/13/2020  2:53:44 PM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+VA_LEVEL                      Verbal Autopsy Questionnaire                                                    
+  RECORD1                       RECORD1                                                          Yes    1  943
+Level: Verbal Autopsy Questionnaire                    Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QNCLUSTER         (id) Cluster Number                                     1    4    N    I    1    0   No   No
+                               1:675  
+QNHNUMBER         (id) Household Number                                   5    3    N    I    1    0   No   No
+QNMOTHER          (id) Line number of the mother                          8    2    N    I    1    0   No   No
+                               1:50  
+QNLINE            (id) Line number of child                              10    2    N    I    1    0   No   No
+                               1:24  
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QFORM                  Form type                                         12    1    N    I    1    0   No   No
+                               1  Form 1 (0-28 days)
+                               2  Form 2 (29 days - <5 years)
+QNDIVISION             Division                                          13    1    N    I    1    0   No   No
+                               1  Barisal
+                               2  Chittagong
+                               3  Dhaka
+                               4  Khulna
+                               5  Mymensingh
+                               6  Rajshahi
+                               7  Rangpur
+                               8  Sylhet
+QNRESIDENCE            Place of residence                                14    1    N    I    1    0   No   No
+                               1  Rural
+                               2  City Corporation
+                               3  Other Urban
+QNINTD                 Day of interview                                  15    2    N    I    1    0   No  Yes
+                               1:31  
+QNINTM                 Month of interview                                17    2    N    I    1    0   No  Yes
+                               1:12  
+QNINTY                 Year of interview                                 19    4    N    I    1    0   No  Yes
+                               2017:2018  
+QNINTNUM               Interviewer number                                23    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QNRESULT               Result of household interview                     27    1    N    I    1    0   No   No
+                               1  Completed
+                               2  No household member at home
+                               3  Mother/Knowledgable respondent not present
+                               4  Mother or Knowledgable respondent postponed
+                               5  Mother or Knowledgable respondent refused
+                               6  Dwelling vacant/destroyed/not found
+                               7  Other
+QNVISITS               Number of household visits                        28    1    N    I    1    0   No   No
+                               1:3  
+QNSUPERV               Supervisor number                                 29    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QNFEDIT                Field editor number                               33    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QNEDIT                 Office editor number                              37    2    N    I    1    0   No   No
+                               1:20  
+                          (na)       Not applicable
+QNKEYER                Data entry clerk                                  39    2    N    I    1    0   No   No
+                               1:20  
+                          (na)       Not applicable
+QNRESP                 Line number of respondent to verbal autopsy       41    2    N    I    1    0   No   No
+                               1:50  
+QFINICD                Final cause of death                              43    4    N    I    1    0   No   No
+                               1   Neonatal tetanus
+                               2   Congenital abnormality
+                               3   Drowning
+                               4   Birth asphyxia
+                               5   Birth injury
+                               6   Diarrhoea
+                               7   Pneumonia
+                               8   Neonatal jaundice
+                               9   Pre term birth
+                               10  Possible serious infection
+                               11  Malnutrition
+                               12  Other causes
+                               13  Unspecific
+                               14  Undetermined
+VAWEIGHT               Weight                                            47    8    N    I    1    0   No   No
+VA_DEFACTO             De facto resident                                 55    1    N    I    1    0   No   No
+                               1  De facto
+                               2  Non de facto
+VA_UCAUSE_ICD          Underlying cause of death                         56   14   AN    I    1    0   No   No
+VA_UCAUSE_ICD_DES      Underlying cause of death description             70   80   AN    I    1    0   No   No
+QN201H                 Start time for interview (Hour)                  150    2    N    I    1    0   No  Yes
+                               6:22  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN201M                 Start time for interview (Minutes)               152    2    N    I    1    0   No  Yes
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN203                  Relationship to the deceased                     154    1    N    I    1    0   No   No
+                               1  Father
+                               2  Mother
+                               3  Sibling
+                               4  No relation
+                               6  Other relative
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN204                  Lived with the deceased                          155    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN302                  Sex of deceased                                  156    1    N    I    1    0   No   No
+                               2  Male
+                               1  Female
+QN303D                 Date of Birth (Day)                              157    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN303M                 Date of Birth (Month)                            159    2    N    I    1    0   No  Yes
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN303Y                 Date of Birth (Year)                             161    4    N    I    1    0   No  Yes
+                               2007:2018  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            Not applicable
+QN303A                 Season when died                                 165    1    N    I    1    0   No   No
+                               1  Summer
+                               2  Monsoon
+                               3  Autumn
+                               4  Late autumn
+                               5  Winter
+                               6  Spring
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN304                  Age of deceased when died                        166    2    N    I    1    0   No   No
+                               0:28  
+QN305D                 Date deceased die (Day)                          168    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN305M                 Date deceased die (Month)                        170    2    N    I    1    0   No  Yes
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN305Y                 Date deceased die (Year)                         172    4    N    I    1    0   No  Yes
+                               2012:2018  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            Not applicable
+QN307                  Place deceased died                              176    1    N    I    1    0   No   No
+                               1  Hospital
+                               2  Other Health Facility
+                               3  On the way to a health facility or provider
+                               4  Home
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN401                  Illness that lead to death                       177    4    N    I    1    0   No   No
+QN402                  Cause of death 1                                 181    4    N    I    1    0   No   No
+QN403                  Cause of death 2                                 185    4    N    I    1    0   No   No
+QN403A                 Illness that led to death mentioned              189    6   AN    I    1    0   No   No
+                               A       Asphyxia
+                               B       Incubator
+                               C       Lung problem
+                               D       Pneumonia
+                               E       Preterm delivery
+                               F       None of the above
+                               ?       Missing
+                                       Not applicable
+QN502                  Number of births before this baby                195    2    N    I    1    0   No   No
+                               0:20  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN503U                 Length of pregnancy unit                         197    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Weeks
+                               9  Special answers
+                          (na)    Not applicable
+QN503N                 Length of pregnancy number                       198    2    N    I    1    0   No  Yes
+                               0:42  
+                               98    Don't know
+                               99    Missing
+                          (na)       Not applicable
+QN504                  Pregnancy ended earlier than expected            200    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN505                  Number of weeks premature                        201    2    N    I    1    0   No   No
+                               0:42  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN506A                 Mother suffered from High Blood pressure         203    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN506B                 Mother suffered from Heart Disease               204    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN506C                 Mother suffered from Diabetes                    205    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN506D                 Mother suffered from Epilepsy/Convulsion         206    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN506E                 Mother suffered from Other medically diagnosed   207    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507A                 Mother suffered from Vaginal Bleeding            208    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507B                 Mother suffered from Smelly vaginal discharge    209    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507C                 Mother suffered from Puffy face                  210    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507D                 Mother suffered from Headache                    211    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507E                 Mother suffered from Blurred Vision              212    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507F                 Mother suffered from Convulsion                  213    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507G                 Mother suffered from Febrile illness             214    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507H                 Mother suffered from abdominal pain              215    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507I                 Mother suffered from Pallor and shortness of br  216    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN507J                 Mother suffered from any other illness           217    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN508                  Child is single or multiple birth                218    1    N    I    1    0   No   No
+                               1  Single
+                               2  Twin
+                               3  Triplet or more
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN509                  Birth Order of child                             219    1    N    I    1    0   No   No
+                               1  First
+                               2  Second
+                               3  Third or Higher
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN601                  Place the child was born                         220    1    N    I    1    0   No   No
+                               1  Hospital
+                               2  Other Health facility
+                               3  Home
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN602                  Assisted the delivery                            221   15   AN    I    1    0   No   No
+                               A                Qualified Doctor
+                               B                Nurse, midwife, paramedic
+                               C                Family Welfare Visitor
+                               D                Skilled Birth Attendant
+                               E                SACMO
+                               F                Community health care provider
+                               G                Health Assistant
+                               H                Family Welfare Assistant
+                               I                NGO Worker
+                               J                Trained TBA
+                               K                Untrained TBA
+                               L                Unqualified Doctor
+                               M                Relatives
+                               N                Neighbors/Friends
+                               X                Other
+                               Y                No one assisted
+                               ?                Missing
+QN603                  Water break                                      236    1    N    I    1    0   No   No
+                               1  Before labor start
+                               2  During labor
+                               3  Water did not break
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN604                  Hours after water break                          237    1    N    I    1    0   No   No
+                               1  Less than 24 hours
+                               2  24 hours or more
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN605                  Water foul smelling                              238    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN606                  Baby stopped moving in the womb                  239    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN607                  When did the baby stop moving in the womb        240    1    N    I    1    0   No   No
+                               1  Before labor start
+                               2  During labor
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN608                  Birth attendant listen fetal heart sounds durin  241    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN609                  Fetal heart sounds                               242    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN610                  Excess bleeding during labor                     243    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN611                  Mother had fever on the day labor started        244    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN612                  Duration of labor pain                           245    1    N    I    1    0   No   No
+                               1  Less than 12 hours
+                               2  12 - 23 hours
+                               3  24 hours or more
+                               4  Did not have labor pains
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN613                  Normal vaginal delivery                          246    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN614                  Type of delivery                                 247    1    N    I    1    0   No   No
+                               1  Forceps/Vacuum
+                               2  Caesarean section
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN615                  Which part of baby came first                    248    1    N    I    1    0   No   No
+                               1  Head
+                               2  Bottom
+                               3  Feet
+                               4  Arm/Head
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN616                  Umblical cord came out before the baby was born  249    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QN701                  Size of the baby at birth                        250    1    N    I    1    0   No   No
+                               1  Smaller than normal
+                               2  Normal
+                               3  Larger than normal
+                               8  Don't know
+                               9  Missing
+                          (na)    Not Applicable
+QN701A                 Baby born more than four weeks early             251    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN702                  Baby is premature                                252    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN703U                 Duration of pregnancy (units)                    253    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Weeks
+                               9  Special answers
+                          (na)    Not Applicable
+QN703N                 Duration of pregnancy (Number)                   254    2    N    I    1    0   No  Yes
+                               0:42  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN704                  Weight in Kgs                                    256    3    N    I    1    1  Yes   No
+                               0.5:7.5  
+                               9.8      Don't know
+                           (m) 9.9      Missing
+                          (na)          Not Applicable
+QN705                  Anything applied to the umblical cord            259    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN706                  What was applied in the umblical cord            260   10   AN    I    1    0   No   No
+                               A           Antibiotics (powder/ointment)
+                               B           Antiseptic (Detol/Savlon Hexisol))
+                               C           Spirit/Alchol
+                               D           Mustard oil with garlic
+                               E           Chewed Rice
+                               F           Tumeric Juice/Powder
+                               G           Ginger Juice
+                               H           Shidur
+                               I           Boric Powder
+                               J           Gentian Violet (Blue Ink)
+                               K           Talcom Powder
+                               X           Other
+                               Z           Don't know
+                               ?           Missing
+QN707                  Signs of injury or broken bone                   270    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN708                  Location of signs of injury                      271    4    N    I    1    0   No   No
+QN709                  Signs of paralysis                               275    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN710                  Baby had malformations                           276    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN711                  Kind of malformation                             277    6   AN    I    1    0   No   No
+                               A       Swelling/Defect on the back
+                               B       Very large head
+                               C       Very small head
+                               D       Defect of lip and/or palm
+                               X       Other malformation
+                               Z       Don't know
+                               ?       Missing
+QN712                  Color of baby at birth                           283    1    N    I    1    0   No   No
+                               1  Normal
+                               2  Pale
+                               3  Blue
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicableicable
+QN713                  Baby breathed after birth                        284    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN714                  Baby given assistance to breathe                 285    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN715                  Baby ever cry after birth                        286    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN716                  Baby ever moved                                  287    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN718                  Baby was born dead                               288    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN719                  Baby was macerated                               289    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN801                  Baby suffered from an injury or accident         290    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN802                  Kind of injury or accident                       291    2    N    I    1    0   No   No
+                               1   Road traffic accident
+                               2   Fall
+                               3   Drowning
+                               4   Poisoning
+                               5   Burns
+                               6   Violence/Assault
+                               7   Fall from height
+                               8   Injured by firearms
+                               9   Stab injury
+                               10  Hanging/strangulation
+                               11  Blunt force injury
+                               12  Natural calamities
+                               13  Electrocution
+                               96  Other
+                               98  Don't know
+                           (m) 99  Missing
+                          (na)     Not Applicable
+QN802A                 Location of accident                             293    1    N    I    1    0   No   No
+                               1  Pedestrian
+                               2  In a car/small vehicle
+                               3  In a bus/large vhicle
+                               4  On a motorised cycle
+                               5  On a non-motorised cycle
+                               6  Other
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN802B                 What object was the accident with                294    1    N    I    1    0   No   No
+                               1  Pedestrian
+                               2  In a car/small vehicle
+                               3  In a bus/large vhicle
+                               4  On a motorised cycle
+                               5  On a non-motorised cycle
+                               6  Other
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN802C                 Was it a non-road traffic accident               295    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN803                  Injury was intentional                           296    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN804                  Baby suffered from animal/insect bite            297    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN805                  Type of animal/insect                            298    1    N    I    1    0   No   No
+                               1  Dog
+                               2  Snake
+                               3  Insect
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN901A                 Age when illness started                         299    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN901B                 Was baby growing normally before illness         301    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN901C                 Number of days baby was ill before death         302    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN901                  Baby able to suckle or bottle-feed               304    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN902U                 Time after birth baby suckled or bottle-fed (Un  305    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               9  Special answers
+                          (na)    Not Applicable
+QN902N                 Time after birth baby suckled or bottle-fed (Nu  306    2    N    I    1    0   No  Yes
+                               0:36  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN903                  Baby stopped suckling or bottle feeding          308    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN904                  Days after birth baby stopped suckling or bottl  309    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN905                  Breastfeeding was exclusive                      311    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN906                  Baby had convulsions                             312    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN907                  Days after birth convulsions started             313    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN908                  Baby become stiff and arched backwards           315    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN909                  Baby had bulging of the fontanelle               316    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN910                  Days after birth baby had bulging                317    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN910A                 Baby's head fontanelle was sunken                319    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN910B                 Days after birth head have the sunken part       320    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN911                  Baby became unresponsive or unconscious          322    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN912                  Days after birth baby became unresponsive or un  323    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN912A                 Baby become unresponsive                         325    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN912B                 Baby became unresponsive 24 hours before death   326    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN913                  Baby had fever                                   327    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN914                  Days after birth baby had fever                  328    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN914A                 Fever continued until death                      330    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN915                  Baby became cold to touch                        331    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN916                  Days after birth baby became cold to touch       332    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN917                  Baby had a cough                                 334    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN918                  Days after birth baby start to cough             335    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN919                  Baby had fast breathing                          337    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN920                  Days after birth baby started breathing fast     338    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN921                  Baby had difficulty of breathing                 340    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN922                  Days after birth baby started to have difficult  341    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN922A                 Length of difficulty breathing                   343    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN922B                 Baby became lethargic after normal activity      345    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN923                  Baby had chest indrawing                         346    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN924                  Baby had grunting                                347    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN925                  Baby had flaring of the nostrils                 348    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN926                  Baby had diarrhea                                349    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN927                  Days after birth baby had diarrhea               350    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN927A                 Length of diarrhea                               352    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN928                  Times baby passed stools in a day                354    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN929                  Blood in the stools                              356    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN930                  Baby had vomiting                                357    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN931                  Days after birth baby started vomiting           358    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN932                  Times baby vomited in a day                      360    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN932A                 Vomited in the week preceding death              362    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN933                  Baby had abdominal distension                    363    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN934                  Days after birth baby had abdominal distension   364    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN935                  Baby had redness or discharge from umblical cor  366    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN936                  Baby had pustular skin rash                      367    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN937                  Baby had yellow palms or soles                   368    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN938                  Days after birth baby had yellow palms or soles  369    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN939                  Days the baby had yellow palms or soles          371    2    N    I    1    0   No   No
+                               0:28  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN939A                 Baby appeared healthy then died suddenly         373    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1001                 Age of mother when the baby died                 374    2    N    I    1    0   No   No
+                               10:49  
+                               98     Don't know
+                           (m) 99     Missing
+                          (na)        Not Applicable
+QN1002                 Mother received antenatal care                   376    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002A                Pregnancy complications in the last 3 months of  377    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002B                Color of water when it broke                     378    1    N    I    1    0   No   No
+                               1  Green or brown
+                               2  Clear
+                               3  Water did not break
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002C                Mother received vaccines during pregnancy        379    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002D                Mother had fever during labor                    380    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002E                Mother had high BP during last three months of   381    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002F                Mother had diabetes mellitus                     382    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002G                Mother had foul smelling vaginal discharge       383    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002H                Mother had convulsions in last three months of   384    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002I                Mother had blurred vision during the last three  385    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002J                Mother had severe anemia                         386    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1002K                Mother had vaginal bleeding during the last thr  387    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1003                 Mother received TT vaccine                       388    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1004                 Number of doses of TT vaccine                    389    2    N    I    1    0   No   No
+                               0:19  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1005                 Current health status of the mother              391    1    N    I    1    0   No   No
+                               1  Healthy
+                               2  Ill
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1005A                Mother been tested for HIV                       392    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1005B                Mother told she had HIV/AIDS                     393    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101                 Baby received any treatment for the illness      394    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101A                Baby received ORS                                395    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101B                Baby needed ORS                                  396    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101C                Baby received IV fluids                          397    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101D                Baby needed IV fluids                            398    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101E                Baby received blood transfusions                 399    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101F                Baby needed blood transfusion                    400    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101G                Baby received food from tube in nose             401    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101H                Baby needed food from tube in nose               402    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101I                Baby received injectable antibiotics             403    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101J                Baby needed injectable antibiotics               404    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101K                Baby received ART                                405    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101L                Baby needed ART                                  406    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101M                Baby had operation for illness                   407    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1101N                Baby needed operation for illness                408    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1102                 Treatment for the baby                           409    4    N    I    1    0   No   No
+QN1103                 Place of treatment for the baby                  413   10   AN    I    1    0   No   No
+                               A           Respondent's home
+                               B           Other home
+                               C           Medical college hospital
+                               D           Specialized Medical college
+                               E           Disttrict Hospital
+                               F           MCWC
+                               G           Upazilla Health Complex
+                               H           UH & Family welfare center
+                               I           Community clinic
+                               J           Sat. clinic/epi outreach
+                               K           Other public sector
+                               L           NGO Static Clinic
+                               M           NGO Satelite clinic
+                               N           Private medical college hospital
+                               O           Private hospital
+                               P           Private clinic
+                               Q           Qualified Doctor
+                               R           Unqualified docotor
+                               S           Pharmacy
+                               T           Other private medical
+                               X           Other
+                               ?           Missing
+QN1104                 Number of formal contacts with health services   423    2    N    I    1    0   No   No
+                               0:29  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1104A                Name of hospital where help was sought           425    1    N    I    1    0   No   No
+QN1104B                Used motorized transport to get to hospital      426    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104C                Problems at hospital admission                   427    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104D                Problems with medical treatment                  428    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104E                Problems getting medication or medical tests     429    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104F                Took more than two hours to get to hospital      430    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104G                Doubts medical care was needed in baby's final   431    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104H                Traditional medicine used in final days before   432    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104I                Called for help in final days before death       433    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1104J                Medical costs prohibited other household paymen  434    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1105                 Health care worker told cause of death           435    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1106                 Health care worker comments                      436    4    N    I    1    0   No   No
+QN1201                 Birth registered                                 440    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1202                 Birth registration number                        441   17   AN    I    1    0   No   No
+QN1203D                Date of birth registration(day)                  458    2    N    I    1    0   No  Yes
+                               1:31  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1203M                Date of birth registration(month)                460    2    N    I    1    0   No  Yes
+                               1:12  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1203Y                Date of birth registration (year)                462    4    N    I    1    0   No  Yes
+                               2011:2018  
+                           (m) 9999       Missing
+                          (na)            Not Applicable
+QN1204                 Was death registered                             466    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1205                 Death registration number                        467    9    N    I    1    0   No   No
+                               999999998  Don't know
+                          (na)            Not Applicable
+QN1206D                Date of death registration(day)                  476    2    N    I    1    0   No  Yes
+                               1:31  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1206M                Date of death registration (month)               478    2    N    I    1    0   No  Yes
+                               1:12  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QN1206Y                Date of death registration (year)                480    4    N    I    1    0   No  Yes
+                               2012:2018  
+                           (m) 9999       Missing
+                          (na)            Not Applicable
+QN1207                 Cause of death from first top of Birth Certific  484    4    N    I    1    0   No   No
+QN1208                 Cause of death from second line from Brth Certi  488    4    N    I    1    0   No   No
+QN1209                 Cause of death from third line of Birth Certifi  492    4    N    I    1    0   No   No
+QN1210                 Cause of death from fourth line of Birth Certif  496    4    N    I    1    0   No   No
+QN1211                 Contributory cause of death from death certific  500    4    N    I    1    0   No   No
+QN1301                 Other health records available                   504    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QN1303                 Burial permit (Cause of Death)                   505    4    N    I    1    0   No   No
+QN1304                 Post mortem results (Cause of Death)             509    4    N    I    1    0   No   No
+QN1305                 Vaccination card                                 513    4    N    I    1    0   No   No
+QN1306                 Hospital prescription                            517    4    N    I    1    0   No   No
+QN1307                 Treatment cards                                  521    4    N    I    1    0   No   No
+QN1308                 Hospital discharge                               525    4    N    I    1    0   No   No
+QN1309                 Laboratory results                               529    4    N    I    1    0   No   No
+QN1310                 Other hospital documents                         533    4    N    I    1    0   No   No
+QN1311H                End of interview (Hour)                          537    2    N    I    1    0   No  Yes
+                               6:22  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QN1311M                End of interview (Minutes)                       539    2    N    I    1    0   No  Yes
+                               1:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC201H                 Start of interview (Hour)                        541    2    N    I    1    0   No  Yes
+                               6:22  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC201M                 Start of interview (Minutes)                     543    2    N    I    1    0   No  Yes
+                               0:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC203                  Relationship to deceased                         545    1    N    I    1    0   No   No
+                               1  Father
+                               2  Mother
+                               3  Sibling
+                               4  No relation
+                               6  Other Relative
+                           (m) 9  Missing
+                          (na)    Not applicable
+QC204                  Lived with the deceased                          546    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC302                  Sex of Deceased                                  547    1    N    I    1    0   No   No
+                               2  Male
+                               1  Female
+QC303D                 Date of Birth (Day)                              548    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC303M                 Date of Birth (Month)                            550    2    N    I    1    0   No  Yes
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC303Y                 Date of Birth (year)                             552    4    N    I    1    0   No  Yes
+                               2007:2018  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            Not applicable
+QC303A                 Season when died                                 556    1    N    I    1    0   No   No
+                               1  Summer
+                               2  Monsoon
+                               3  Autumn
+                               4  Late autumn
+                               5  Winter
+                               6  Spring
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+QC304U                 Age of deceased (Units)                          557    1    N    I    1    0   No  Yes
+                               1  Age in days
+                               2  Age in months
+                               9  Special answers
+                          (na)    Not Applicable
+QC304N                 Age of deceased (Number)                         558    2    N    I    1    0   No  Yes
+                               1:96  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC305D                 Date deceased die (Day)                          560    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC305M                 Date deceased die (Month)                        562    2    N    I    1    0   No  Yes
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC305Y                 Date deceased die (Year)                         564    4    N    I    1    0   No  Yes
+                               2012:2018  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            Not applicable
+QC307                  Place deceased died                              568    1    N    I    1    0   No   No
+                               1  Hospital
+                               2  Other health facility
+                               3  On the way to health facility or provider
+                               4  Home
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC401                  Events that lead to death                        569    4    N    I    1    0   No   No
+QC402                  Cause of death 1                                 573    4    N    I    1    0   No   No
+QC403                  Cause of death 2                                 577    4    N    I    1    0   No   No
+QC403A                 Illness that led to death mentioned              581   11   AN    I    1    0   No   No
+                               A            Abdomen
+                               B            Cancer
+                               C            Dehydration
+                               D            Dengue fever
+                               E            Diarrhea
+                               F            Fever
+                               G            Heart problems
+                               H            Jaundice
+                               I            Pneumonia
+                               J            Rash
+                               K            None of the above
+                               ?            Missing
+                                            Not applicable
+QC502                  Heart disease                                    592    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC503                  Diabetes                                         593    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC504                  Asthma                                           594    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC505                  Epilepsy                                         595    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC506                  Malnutrition                                     596    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC507                  Cancer                                           597    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC508                  Specify type of cancer                           598    4    N    I    1    0   No   No
+QC509                  Tuberclosis                                      602    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510                  HIV/AIDS                                         603    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510A                 Positive test for malaria                        604    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510B                 Negative test for malaria                        605    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510C                 Dengue fever                                     606    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510D                 Measles                                          607    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510E                 Sickle cell                                      608    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510F                 Kidney disease                                   609    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC510G                 Liver disease                                    610    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC511                  Suffered from any other medically diagnosed ill  611    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC512                  Specify illness                                  612    4    N    I    1    0   No   No
+QC601                  Suffered from any injury or accident             616    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC602                  Kind of injury or accident                       617    2    N    I    1    0   No   No
+                               1   Road traffic accident
+                               2   Fall
+                               3   Drowning
+                               4   Poisoning
+                               5   Burns
+                               6   Violence/assault
+                               7   Fall from height
+                               8   Injured by firearms
+                               9   Stab injury
+                               10  Hanging strngulation
+                               11  Blunt force injury
+                               12  Natural calamities
+                               13  Electrocution
+                               96  Other
+                           (m) 99  Missing
+                          (na)     Not applicable
+QC602A                 Location of accident                             619    1    N    I    1    0   No   No
+                               1  Pedestrian
+                               2  In a car/small vehicle
+                               3  In a bus/large vhicle
+                               4  On a motorised cycle
+                               5  On a non-motorised cycle
+                               6  Other
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC602B                 What object was the accident with                620    1    N    I    1    0   No   No
+                               1  Pedestrian
+                               2  In a car/small vehicle
+                               3  In a bus/large vhicle
+                               4  On a motorised cycle
+                               5  On a non-motorised cycle
+                               6  Other
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC602C                 Was it a non-road traffic accident               621    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC603                  Injury/accident was intentional by someone else  622    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC606                  Suffered from animal/insects bite                623    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC607                  Type of animal/insect                            624    1    N    I    1    0   No   No
+                               1  Dog
+                               2  Snake
+                               3  Insect
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC701                  Child was small at birth                         625    1    N    I    1    0   No   No
+                               1  Smaller than normal
+                               2  Normal
+                               3  Larger than normal
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC702                  Child born prematurely                           626    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC703U                 Duration of pregnancy (Units)                    627    1    N    I    1    0   No  Yes
+                               1  Weeks
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC703N                 Duration pregnancy (Number)                      628    2    N    I    1    0   No  Yes
+                               1:42  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC704                  Child grown normally                             630    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC704A                 Birth weight                                     631    3    N    I    1    1  Yes   No
+                               0.5:7.5  
+                               9.8      Don't know
+                           (m) 9.9      Missing
+                          (na)          Not Applicable
+QC704B                 Body part was too big/small at birth             634    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC704C                 Swelling or defect on back at birth              635    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC704D                 Large head at birth                              636    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC704E                 Small head at birth                              637    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC705                  Child had bulging of the fontanelle              638    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC706                  Days before death had bulging                    639    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC801                  Mother's health now                              641    1    N    I    1    0   No   No
+                               1  Healthy
+                               2  Ill
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC801A                 Received professional assitance during delivery  642    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC801B                 Mother was tested for HIV                        643    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC801C                 Mother told she has HIV/AIDS                     644    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC802U                 Duration of illness (Units)                      645    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC802N                 Duration of illness (Numbers)                    646    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC802A                 Appeared healthy then died                       648    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC803                  Had fever                                        649    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC804U                 Duration of fever (Units)                        650    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC804N                 Duration of fever (Numbers)                      651    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC805                  Severity of fever                                653    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC806                  Fever was continuous                             654    1    N    I    1    0   No   No
+                               1  Continuous
+                               2  On and off
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC807                  Had chills/rigor                                 655    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC807A                 Had night sweats                                 656    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC808                  Had cough                                        657    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC809U                 Duration of cough (Units)                        658    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC809N                 Duration of cough (Number)                       659    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC809A                 Cough productive with sputum                     661    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC809B                 Cough contained blood                            662    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC809C                 Cough with whooping sound                        663    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC810                  Severity of cough                                664    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC811                  Child vomited after cough                        665    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC812                  Child had fast breathing                         666    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC813                  Duration of fast breathing (days)                667    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC814                  Difficulty in breathing                          669    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC815                  Duration of difficulty in breathing (days)       670    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC816                  Had chest indrawing                              672    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC817                  Duration of chest indrawing (days)               673    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC818                  Had noisy breathing                              675    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC819                  Had flaring of nostrils                          676    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC820                  Had diarrhea                                     677    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC821                  Duration of diarrhea (days)                      678    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC822                  Number of times passed stool in a day            680    2    N    I    1    0   No   No
+                               1:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC823                  Blood in stool during the final illness          682    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC824                  Had vomiting                                     683    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC825                  Duration of vomiting (days)                      684    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC826                  Number of vomits in a day                        686    2    N    I    1    0   No   No
+                               1:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC826A                 Vomit blood                                      688    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC826B                 Vomit colored black                              689    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC827                  Had abdominal pain                               690    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC828U                 Duration of abdominal pain (units)               691    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC828N                 Duration of abdominal pain                       692    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC829                  Abdominal pain was severe                        694    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC830                  Had abdominal distension                         695    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC831U                 Duration of abdominal distension (Units)         696    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC831N                 Duration of abdominal distension (Number)        697    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC832                  Development of distension                        699    1    N    I    1    0   No   No
+                               1  Rapidly within days
+                               2  Gradually over months
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC833                  Not passed any stool for a day or longer         700    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC833A                 Portruding abdomen                               701    1    N    I    1    0   No   No
+QC833BU                Protruding abdomen unit                          702    1    N    I    1    0   No   No
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC833BN                Protruding abdomen number                        703    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC834                  Had a mass in the abdomen                        705    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC835U                 Duration of mass in the abdomen (Units)          706    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC835N                 Duration of mass in the abdomen (Number)         707    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC836                  Had headache                                     709    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC837U                 Duration of headache (Units)                     710    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC837N                 Duration of headache (Number)                    711    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC838                  Severity of headache                             713    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC839                  Had stiff or painful neck                        714    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC840                  Duration of stiff or painful neck                715    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC841                  Became unconscious                               717    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC842                  Duration of unconsciousness (days)               718    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC843                  Development of unconsciousness                   720    1    N    I    1    0   No   No
+                               1  Suddenly
+                               2  Fast (in a day)
+                               3  Slowly (many days)
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC844                  Had convulsions                                  721    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC844A                 Convulsions occured in whole body                722    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC845U                 Duration of convulsions (units)                  723    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC845N                 Duration of convulsions (numbers)                724    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC846                  Had paralysis of lower limbs                     726    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC847U                 Duration of paralysis of lower limbs (units)     727    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC847N                 Duration of paralysis of lower limbs (number)    728    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC848                  Development of paralysis                         730    1    N    I    1    0   No   No
+                               1  Suddenly
+                               2  Fast (in a day)
+                               3  Slowly (many days)
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC849                  Change in amount of urine passed daily           731    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC850U                 Durations change in amount of urine passed dail  732    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC850N                 Durations change in amount of urine passed dail  733    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC851                  Amount of urine passed                           735    1    N    I    1    0   No   No
+                               1  Too much
+                               2  Too little
+                               3  No urine at all
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC851A                 Blood in urine                                   736    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC852                  Had skin rash                                    737    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC853                  Duration of skin rash                            738    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC854A                 Rash on face                                     740    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC854B                 Rash on trunk                                    741    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC854C                 Rash on arms and legs                            742    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC854D                 Rash on other places                             743    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC855                  Appearance of the rash                           744    1    N    I    1    0   No   No
+                               1  Measles rash
+                               2  Rash with clear fluid
+                               3  Rash with pus
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC856                  Had red eyes                                     745    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC857                  Had bleeding from nose, mouth and anus           746    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC858                  Had weight loss                                  747    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC859U                 Duration of weight loss before death (Units)     748    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC859N                 Duration of weight loss before death (Number)    749    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC860                  Looked very thin and wasted                      751    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC860A                 Sores or ulcers                                  752    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC860B                 Sores had clear fluid or pus                     753    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC860C                 Ulcer was on the foot                            754    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC860D                 Ulcer foot ooze pus                              755    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC860E                 Days foot oozed pus                              756    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC861                  Had mouth sores or white patches in the mouth    758    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC862                  Duration of mouth sores (days)                   759    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC863                  Had swelling                                     761    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864U                 Duration of swelling (Units)                     762    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC864N                 Duration of swelling (Number)                    763    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC864AA                Swelling on the face                             765    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864AB                Swelling on the joints                           766    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864AC                Swelling on the ankles                           767    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864AD                Swelling on the whole body                       768    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864AE                Swelling on other places                         769    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864B                 Swollen legs                                     770    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864C                 Areas of skin that was black                     771    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864D                 Difficulty swallowing                            772    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC864E                 Amount of days of difficulty swallowing          773    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC864F                 Difficulty swallowing solid liquids or both      775    1    N    I    1    0   No   No
+                               1  Solid
+                               2  Liquid
+                               3  Both
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC866                  Had any lumps                                    776    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC867U                 Duration of lumps (Units)                        777    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC867N                 Duration of lumps (Number)                       778    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC868A                 Lumps on neck                                    780    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC868B                 Lumps on armpit                                  781    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC868C                 Lumps on groin                                   782    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC868D                 Lumps on other places                            783    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC869                  Had yellow discoloration of the eye              784    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC870U                 Duration of yellow discoloration of the eye (Un  785    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC870N                 Duration of yellow discoloration of the eye (Nu  786    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC871                  Hair changed to reddish/yellowish                788    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC872U                 Duration of hair changed to reddish/yellowish (  789    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+                          (na)    Not Applicable
+QC872N                 Duration of hair changed to reddish/yellowish (  790    2    N    I    1    0   No  Yes
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC873                  Look pale or had pale palms                      792    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC874                  Duration of looking pale (days)                  793    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC875                  Had sunken eyes                                  795    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC876                  Duration of having sunken eyes                   796    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC901                  Vaccinated for measles                           798    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC901A                 Has vaccination card                             799    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC901B                 Vaccine card received                            800    1    N    I    1    0   No   No
+QC902                  Recieved treatment for illness that led to deat  801    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC903                  Drugs given for illness                          802    4    N    I    1    0   No   No
+QC904AA                ORS or IV fluids (drip)                          806    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904AB                Blood transfusion                                807    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904AC                Treatment/food through the nose                  808    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904AD                Other treatment                                  809    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904A                 Child received injectable antibiotics            810    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904B                 Child needed injectable antibiotics              811    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904C                 Child received ART                               812    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904D                 Child needed ART                                 813    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC904E                 Received treatment at health facility            814    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905                  Place of treatment                               815   10   AN    I    1    0   No   No
+                               A           Medical college hospital
+                               B           Specialized government hospital
+                               C           District Hospital
+                               D           MCWC
+                               E           Upazilla Health Complex
+                               F           UH & Family welfare
+                               G           Comm. Clinic
+                               H           Satellite Clinic/ EPI outreach
+                               I           Health assistant
+                               J           Family welfare assistant
+                               K           Other
+                               l           NGO Static Clinic
+                               M           NGO Satellite Clinic
+                               N           NGO depo holder
+                               O           NGO field worker
+                               P           Other NGO Sector
+                               Q           Private medical college hospital
+                               R           Private Hospital
+                               S           Private Clinic
+                               T           Qualified Doctor
+                               U           Nonqualified doctor
+                               V           Pharmacy
+                               W           Other private medical sector
+                               X           Other
+                               ?           Missing
+QC905A                 Travel to hospital before death                  825    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905B                 Used motorized transport to get to hospital      826    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905C                 Problems at hospital admission                   827    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905D                 Problems with medical treatment                  828    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905E                 Problems getting medication or medical tests     829    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905F                 Took more than two hours to get to hospital      830    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905G                 Discharged from hospital very ill                831    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905H                 Doubts medical care was needed                   832    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905I                 Traditional medicine used in final days before   833    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905J                 Phone used to call for help                      834    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC905K                 Total cost of care prohibited other household p  835    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC906                  Number of contacts with formal health services   836    2    N    I    1    0   No   No
+                               1:90  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC907                  Told by health care worker about cause of death  838    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC908                  Health care worker comments                      839    4    N    I    1    0   No   No
+QC909                  Had operation for the illness                    843    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC910                  Days operation before death                      844    2    N    I    1    0   No   No
+                               0:96  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC911                  Part of the body operated on                     846    1    N    I    1    0   No   No
+                               1  Abdomen
+                               2  Chest
+                               3  Head
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC1001                 Have a death certificate for the deceased        847    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC1002                 Birth registration number                        848   17   AN    I    1    0   No   No
+QC1003D                Date of death certificate (day)                  865    2    N    I    1    0   No  Yes
+                               1:31  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC1003M                Date of death certificate (month)                867    2    N    I    1    0   No  Yes
+                               1:12  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC1003Y                Date of death certificate (year)                 869    4    N    I    1    0   No  Yes
+                               2012:2018  
+                           (m) 9999       Missing
+                          (na)            Not Applicable
+QC1004                 Was death registered                             873    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC1005                 Death registration number                        874    9    N    I    1    0   No   No
+                               999999998  Don't know
+                           (m) 999999999  Missing
+                          (na)            Not Applicable
+QC1006D                Date of death certificate (day)                  883    2    N    I    1    0   No  Yes
+                               1:31  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC1006M                Date of death certificate (month)                885    2    N    I    1    0   No  Yes
+                               1:12  
+                           (m) 99    Missing
+                          (na)       Not Applicable
+QC1006Y                Date of death certificate (year)                 887    4    N    I    1    0   No  Yes
+                               2012:2018  
+                           (m) 9999       Missing
+                          (na)            Not Applicable
+QC1007                 Cause of death from first top of Birth Certific  891    4    N    I    1    0   No   No
+QC1008                 Cause of death from second line from Brth certi  895    4    N    I    1    0   No   No
+QC1009                 Cause of death from third line of birth certifi  899    4    N    I    1    0   No   No
+QC1010                 Cause of death from fourth line of birth certif  903    4    N    I    1    0   No   No
+QC1101                 Other health records available                   907    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+                          (na)    Not Applicable
+QC1103                 Burial permit (Cause of Death)                   908    4    N    I    1    0   No   No
+QC1104                 Post mortem results                              912    4    N    I    1    0   No   No
+QC1105                 Vaccination card                                 916    4    N    I    1    0   No   No
+QC1106                 Hospital prescription                            920    4    N    I    1    0   No   No
+QC1107                 Treatment cards                                  924    4    N    I    1    0   No   No
+QC1108                 Hospital discharge                               928    4    N    I    1    0   No   No
+QC1109                 Laboratory results                               932    4    N    I    1    0   No   No
+QC1110                 Other hospital documents                         936    4    N    I    1    0   No   No
+QC1111H                End of Interview (Hour)                          940    2    N    I    1    0   No  Yes
+                               6:22  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+QC1111M                End of Interview (Minutes)                       942    2    N    I    1    0   No  Yes
+                               1:59  
+                               97    Inconsistent
+                           (m) 99    Missing
+                          (na)       Not applicable
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
